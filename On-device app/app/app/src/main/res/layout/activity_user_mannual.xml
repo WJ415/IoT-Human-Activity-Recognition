@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".UserMannualActivity">
+
+
+       <TextView
+           android:text="You only needs few steps to start\n using the app"
+           android:textColor="@color/white_70"
+           android:textStyle="italic"
+           android:paddingLeft="10dp"
+           android:paddingTop="40dp"
+           android:textSize="15sp"
+           android:layout_width="wrap_content"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintLeft_toRightOf="@id/step1"
+           android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:id="@+id/step1"
+        android:layout_width="133dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/step1" />
+
+    <TextView
+        android:layout_width="177dp"
+        android:layout_height="225dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="120dp"
+        android:text="Step1: Connecting Sensors\n\n\nStep2: Taking Action"
+        android:textColor="@color/white_70"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/step1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/step3"
+        android:layout_width="201dp"
+        android:layout_height="149dp"
+        android:layout_marginRight="20dp"
+        android:paddingTop="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/step1"
+        app:srcCompat="@drawable/step3" />
+
+    <TextView
+        android:layout_width="111dp"
+        android:layout_height="134dp"
+        android:paddingTop="100dp"
+        android:paddingRight="20dp"
+        android:text="Step3: Prediction"
+        android:textColor="@color/white_70"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toLeftOf="@+id/step3"
+        app:layout_constraintTop_toBottomOf="@id/step1" />
+
+    <ImageView
+        android:id="@+id/step4"
+        android:layout_width="167dp"
+        android:layout_height="182dp"
+        android:layout_marginLeft="16dp"
+        android:paddingTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/step3"
+        app:srcCompat="@drawable/step4" />
+
+    <TextView
+        android:layout_width="132dp"
+        android:layout_height="148dp"
+        android:paddingTop="110dp"
+        android:text="Step4: Saving and Sharing"
+        android:textColor="@color/white_70"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/step4"
+        app:layout_constraintTop_toBottomOf="@id/step3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

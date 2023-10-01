@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/cancel_menu_logout"
+        android:title="Cancel"
+        android:icon="@drawable/ic_cancel"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/yes_menu_logout"
+        android:title="Log out"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="never"
+        />
+
+</menu>

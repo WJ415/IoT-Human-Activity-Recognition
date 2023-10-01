@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatorLayout"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView2"-->
+        <!--            android:layout_width="39dp"-->
+        <!--            android:layout_height="12dp"-->
+        <!--            android:layout_marginTop="100px"-->
+        <!--            android:text="I want to"-->
+        <!--            app:layout_constraintBottom_toTopOf="@+id/ble_button"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+        <Button
+            android:id="@+id/record_button"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="2dp"
+            android:background="#2F3A4F"
+            android:text="settings"
+            android:textColor="#FFFFFF"
+            app:layout_constraintTop_toBottomOf="@+id/ble_button"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+             />
+
+
+        <Button
+            android:id="@+id/live_button"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:background="#2F3A4F"
+            android:layout_marginBottom="10dp"
+            android:text="main activity"
+            android:textColor="#FFFFFF"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+             />
+
+
+        <Button
+            android:id="@+id/ble_button"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:background="#2F3A4F"
+            android:text="Pairing Devices"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="2dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/records_button" />
+
+        <Button
+            android:id="@+id/records_button"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:background="#2F3A4F"
+            android:text="records"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="2dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/live_button" />
+        <Button
+            android:id="@+id/manual_button"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:background="#2F3A4F"
+            android:text="User mannual"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="2dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/record_button" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

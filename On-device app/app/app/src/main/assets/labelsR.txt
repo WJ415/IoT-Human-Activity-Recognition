@@ -1,0 +1,14 @@
+Sitting
+Sitting bent forward
+Sitting bent backward
+Standing
+Lying down left
+Lying down right
+Lying down on stomach
+Lying down on back
+Walking at normal speed
+Running
+Climbing stairs
+Descending stairs
+Desk work
+Movements

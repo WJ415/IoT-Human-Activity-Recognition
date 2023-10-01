@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/white_70"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ExtraText">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:text="Privacy Policy"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:text="
+   Update date: 2022/11/20\n
+      Valid Date: 2022/9/20
+\nDear app users:\nThanks for using the PdIoT GroupH’s product and services. Recently, we have updated the PdIoT GroupH Privacy Policy. Please read carefully and fully understand the relevant terms.\n
+Reminder terms:\n
+Your trust is very important to us, and we are fully aware of the importance of personal information to you. We will take corresponding security protection measures in accordance with the requirements of laws and regulations, and try our best to keep your personal information safe and controllable. In view of this, the PdIoT GroupH platform has formulated this Privacy Policy (hereinafter referred to as this policy/this privacy policy)
+We’re committed to keeping that trust, and that starts with helping you understand our privacy practices. Our Privacy Principles set the foundation for how we approach privacy at PdIoT GroupH:
+We will collect and use your information in accordance with the Privacy Policy, but we will not collect personal information in a bundled manner just because you agree to this Privacy Policy.
+We hereby remind you:\n
+This policy does not apply to services provided to you by other independent third parties, and the personal information you provide to third parties does not apply to this privacy policy, and the L is not responsible for any third party's use of the information provided by you.
+Before using the products or services of the PdIoT GroupH platform, please be sure to carefully read and thoroughly understand this policy, especially the terms marked in bold/bold underline, you should read them carefully, and use them after confirming your full understanding and agreement related products or services. Once you start using the products or services of the PdIoT GroupH platform, it means that you have fully understood and agreed to this policy.
+        -- GroupH "
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/blue_grey"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/text_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+            android:text="OK"
+            android:textAlignment="center"
+            android:textColor="@color/blue_grey"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
